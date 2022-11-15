@@ -5,7 +5,7 @@ import { close, menu } from "./assets";
 
 const Navbar = ({click}) => {
   return (
-    <div className="flex max-sm:w-[650px]  max-xl:w-[1029px]">
+    <div className="flex max-sm:w-[638px]">
         <div className="flex ml-[40px] max-sm:ml-[0px] max-xl:ml-[20px] mt-[46.67px] max-sm:mt-[53px]">
             <img className="w-[41.99px] max-sm:w-[30px] h-[36.37px] max-sm:h-[25px]" src={home} alt="home-icon"/>
             <img className="w-[188.1px] max-sm:w-[110px] h-[32.19px] max-sm:h-[20px] mt-[4.47px]" src={homeName} alt="home-name"/>

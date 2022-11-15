@@ -3,7 +3,7 @@ import { home1, home2, home3, home4 } from  "./assets";
 const Hero = () => {
   return (
     <>
-    <section className="flex  max-sm:flex-col max-sm:w-[650px]  max-xl:w-[1029px]">
+    <section className="flex  max-sm:flex-col max-sm:w-[638px] ">
       <div className="mt-[162.13px]">
         <p className="font-red font-normal text-[56px]  max-xl:text-[40px] leading-[140%] tracking-[-0.02em] text-[#434343] ml-[40px]">
           Rent a <span className="text-[#A02279]">Place</span> away from<br/>

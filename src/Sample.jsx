@@ -4,7 +4,7 @@ import { adventures } from "./constants";
 const Sample = () => {
   return (
     <>
-    <section className="max-sm:w-[650px]  max-xl:w-[1029px]">
+    <section className="max-sm:w-[638px]">
       <h4 className="font-red font-bold text-5xl max-sm:text-4xl  max-xl:ml-[150px] leading-[60px] text-[#000000] ml-[313px] max-sm:ml-[50px] mt-[39px]" >Inspiration for your next adventure</h4>
       <div className="flex flex-wrap max-sm:flex-col mt-[43px]  max-xl:ml-[80px] max-sm:ml-[150px] mb-[92px]">
         {adventures.map((adventure, i) =>(
