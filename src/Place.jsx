@@ -8,20 +8,20 @@ const Place = () => {
   return (
     <>
     <Navbar />
-      <nav className="flex ml-[2px] mr-[2px]">
-        <Link to="/place" className="w-[55px] h-[25px] font-red font-normal text-[10px] text-[#434343] leading-[25px] mt-[134.67px] ml-[0px]">Resturant</Link>
-        <Link to="/place" className="w-[45px] h-[25px] font-red font-normal text-[10px] text-[#434343] leading-[25px] mt-[134.67px] ml-[0px]">Cottage</Link>
-        <Link to="/place" className="w-[35px] h-[25px] font-red font-normal text-[10px] text-[#434343] leading-[25px] mt-[134.67px] ml-[0px]">Castle</Link>
-        <Link to="/place" className="w-[62px] h-[25px] font-red font-normal text-[10px] text-[#434343] leading-[25px] mt-[135px] ml-[0px]">fantast city</Link>
-        <Link to="/place" className="w-[33px] h-[25px] font-red font-normal text-[10px] text-[#434343] leading-[25px] mt-[135px] ml-[0px]">beach</Link>
-        <Link to="/place" className="w-[43px] h-[25px] font-red font-normal text-[10px] text-[#434343] leading-[25px] mt-[135px] ml-[0px]">Carbins</Link>
-        <Link to="/place" className="w-[47px] h-[25px] font-red font-normal text-[10px] text-[#434343] leading-[25px] mt-[135px] ml-[0px]">Off-grid</Link>
-        <Link to="/place" className="w-[31px] h-[25px] font-red font-normal text-[10px] text-[#434343] leading-[25px] mt-[135px] ml-[0px]">Farm</Link>
-        <button className="w-[50px] h-[30px]  box-border border-[1px] border-solid border-[#B4B4B4] rounded-lg mt-[127px] ml-[0px]">
-          <h4 className="font-red font-normal text-[10px] text-[#434343] leading-[25px]">Location</h4>
+      <nav className="flex ml-[2px] md:ml-[40px] mr-[2px]">
+        <Link to="/place" className="w-[55px] md:w-[98px]  h-[25px] font-red font-normal text-[10px] md:text-xl text-[#434343] leading-[25px] mt-[134.67px] ml-[0px] md:ml-[20px]">Resturant</Link>
+        <Link to="/place" className="w-[45px] md:w-[78px] h-[25px] font-red font-normal text-[10px] md:text-xl text-[#434343] leading-[25px] mt-[134.67px] ml-[0px] md:ml-[38px]">Cottage</Link>
+        <Link to="/place" className="w-[35px] md:w-[62px] h-[25px] font-red font-normal text-[10px] md:text-xl text-[#434343] leading-[25px] mt-[134.67px] ml-[0px] md:ml-[38px]">Castle</Link>
+        <Link to="/place" className="w-[62px] md:w-[112px]  h-[25px] font-red font-normal text-[10px] md:text-xl text-[#434343] leading-[25px] mt-[135px] ml-[0px] md:ml-[69px]">fantast city</Link>
+        <Link to="/place" className="w-[33px] md:w-[59px]  h-[25px] font-red font-normal text-[10px] md:text-xl text-[#434343] leading-[25px] mt-[135px] ml-[0px] md:ml-[38px]">beach</Link>
+        <Link to="/place" className="w-[43px] md:w-[76px] h-[25px] font-red font-normal text-[10px] md:text-xl text-[#434343] leading-[25px] mt-[135px] ml-[0px] md:ml-[45px]">Carbins</Link>
+        <Link to="/place" className="w-[47px] md:w-[77px] h-[25px] font-red font-normal text-[10px] md:text-xl text-[#434343] leading-[25px] mt-[135px] ml-[0px] md:ml-[42px] ">Off-grid</Link>
+        <Link to="/place" className="w-[31px] md:w-[53px] h-[25px] font-red font-normal text-[10px] md:text-xl text-[#434343] leading-[25px] mt-[135px] ml-[0px] md:ml-[48px]">Farm</Link>
+        <button className="w-[50px] md:w-[161px] h-[30px] md:h-[48px] box-border border-[1px] border-solid border-[#B4B4B4] rounded-lg mt-[127px] md:mt-[120px] ml-[0px] md:ml-[48px]">
+          <h4 className="font-red font-normal text-[10px] md:text-xl text-[#434343] leading-[25px]">Location</h4>
         </button>
       </nav>
-      <div className="flex flex-col ml-[20px] mt-[75px] mb-[92px]">
+      <div className="flex flex-col md:flex-row md:flex-wrap ml-[20px] md:ml-[0px] mt-[75px] mb-[92px]">
         {placeCards.map((card, i) => (
           <div key={i} className="box-border w-[292px] h-[372px] mt-[24px] ml-[24px] border-solid border-[#D7D7D7] border-[1px] rounded-[15px]">
             <img className=" w-[260px] h-[265px] mt-[16px] ml-[16px] mr-[16px] " src={card} alt="place card"/>

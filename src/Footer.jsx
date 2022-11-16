@@ -7,8 +7,8 @@ import { footerLinks } from "./constants";
 
 const Footer = () => {
   return (
-    <section className="bg-[#1D1D1E] flex h-[700px]">
-        <div className="flex-col absolute ml-[35px] mt-[350px]">
+    <section className="bg-[#1D1D1E] flex h-[700px] md:h-[322px]">
+        <div className="flex-col absolute ml-[35px] md:ml-[113px]  md:mt-[0px] mt-[350px]">
             <div className="flex">
                 <img 
                 src={homePlane}
@@ -40,9 +40,9 @@ const Footer = () => {
             </div>
             <p className="font-red font-normal text-[#F7F7F7] text-[16px, 16px] mt-[55px]">© 2022 Metabnb</p>
         </div>
-        <div className="flex  mt-[63px] absolute ml-[0px]">
+        <div className="flex md:ml-[380px] mt-[63px] absolute ml-[0px]">
             {footerLinks.map((footerlink, i) => (
-                <div key={i} className="flex flex-col ml-[35px] ">
+                <div key={i} className="flex flex-col ml-[35px] md:ml-[160px]">
                     <h4 className="font-red font-bold text-lg leading-[22px] text-[#FFFFFF]">
                         {footerlink.title}
                     </h4>

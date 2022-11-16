@@ -5,10 +5,10 @@ const Sample = () => {
   return (
     <>
     <section >
-      <h4 className="font-red font-bold text-2xl leading-[60px] text-[#000000] ml-[5px] mt-[39px]" >Inspiration for your next adventure</h4>
-      <div className="flex flex-col mt-[43px] ml-[40px] mb-[92px]">
+      <h4 className="font-red font-bold text-2xl md:text-5xl leading-[60px] text-[#000000] ml-[5px] md:ml-[313px] mt-[39px]" >Inspiration for your next adventure</h4>
+      <div className="flex flex-col md:flex-wrap md:flex-row mt-[43px] ml-[40px] mb-[92px]">
         {adventures.map((adventure, i) =>(
-           <div key={i} className="box-border w-[295px] h-[372px] mt-[24px] border-solid border-[#D7D7D7] border-[1px] rounded-[15px]">
+           <div key={i} className="box-border w-[295px] h-[372px] mt-[24px] md:ml-[10px] border-solid border-[#D7D7D7] border-[1px] rounded-[15px]">
            <img className=" w-[260px] h-[265px] mt-[16px] ml-[16px] mr-[16px] " src={adventure} alt="place card"/>
            <div className="flex">
              <div>

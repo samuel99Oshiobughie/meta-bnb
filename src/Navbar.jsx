@@ -6,17 +6,17 @@ import { close, menu } from "./assets";
 const Navbar = ({click}) => {
   return (
     <div className="flex">
-        <div className="flex ml-[0px] mt-[51px]">
-            <img className="w-[30px] h-[25px]" src={home} alt="home-icon"/>
-            <img className="w-[40px] h-[10px] mt-[14px]" src={homeName} alt="home-name"/>
+        <div className="flex ml-[0px] md:ml-[40px] mt-[51px] md:mt-[46.67px]">
+            <img className="w-[30px] md:w-[41.99px] h-[25px] md:h-[36.37px]" src={home} alt="home-icon"/>
+            <img className="w-[40px] md:w-[188.1px] h-[10px] md:h-[32.19px] mt-[14px] md:mt-[4.47px]" src={homeName} alt="home-name"/>
         </div>
-          <div className="ml-[20px] mt-[55px]">
-              <Link to="/" className="font-red font-normal text-xs ml-[0px]  text-black w-28 h-6">Home</Link>
-              <Link to="/place" className="font-red ml-[5px] font-normal text-xs  text-black w-32 h-6">Place to stay</Link>
-              <Link to="/" className="font-red ml-[5px] font-normal text-xs text-black w-28 h-6">NFTs</Link>
-              <Link to="/" className="font-red ml-[5px] font-normal text-xs text-black w-28 h-6">Community</Link>
+          <div className="ml-[20px] md:ml-[140px] mt-[55px] md:mt-[58px]">
+              <Link to="/" className="font-red font-normal text-xs md:text-2xl  ml-[0px]  text-black w-28 h-6">Home</Link>
+              <Link to="/place" className="font-red ml-[5px] md:ml-[40px] font-normal text-xs md:text-2xl  text-black w-32 h-6">Place to stay</Link>
+              <Link to="/" className="font-red ml-[5px] md:ml-[40px] font-normal text-xs md:text-2xl  text-black w-28 h-6">NFTs</Link>
+              <Link to="/" className="font-red ml-[5px] md:ml-[40px] font-normal text-xs md:text-2xl text-black w-28 h-6">Community</Link>
           </div>
-          <button className="font-red font-normal mt-[35px] ml-[15px] mr-[0px] text-xs text-white w-[5rem] h-11 button" 
+          <button className="font-red font-normal mt-[35px] md:mt-[43px] ml-[15px] md:ml-[180px]  mr-[0px] text-xs md:text-xl text-white w-[5rem] md:w-[10.62rem] h-11 md:h-12 button" 
             onClick={click}>Connect Wallet</button>
     </div>
     // <div className="flex max-sm:w-[638px]">

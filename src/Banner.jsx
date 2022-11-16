@@ -3,10 +3,10 @@ import { mbToken, sea, meta } from "./assets";
 const Banner = () => {
   return (
     <>
-    <section className="flex  items-center px-[0px] py-2.5 h-[70px] bg-[#A02279] mt-[67px] ">
-      <img className="ml-[5px]  w-[80px]" src={mbToken} alt="mb token"/>
-      <img className="ml-[60px] w-[80px]" src={meta} alt="meta token"/>
-      <img className="ml-[60px] w-[80px]" src={sea} alt="sea token"/>
+    <section className="flex  items-center px-[0px] md:px-2.5 py-2.5 h-[70px] bg-[#A02279] mt-[67px] ">
+      <img className="ml-[5px] md:ml-[50px] w-[80px] md:w-[200px]" src={mbToken} alt="mb token"/>
+      <img className="ml-[60px] md:ml-[264px] w-[80px] md:w-[200px]" src={meta} alt="meta token"/>
+      <img className="ml-[60px] md:ml-[264px] w-[80px] md:w-[200px]" src={sea} alt="sea token"/>
     </section>
     </>
     // <>
