@@ -3,7 +3,7 @@ import { image1, image2, image3 } from "./assets";
 const Learn = () => {
   return (
     <>
-     <section className="bg-[#A02279] pb-[700px]">
+     <section className="bg-[#A02279] max-sm:pb-[700px]">
       <div>
         <h4 className="font-red font-bold text-5xl leading-[60px] text-white pt-[186px]  ml-[20px] "> Metabnb NFTs</h4>
         <p className="font-red font-normal text-lg leading-[35px] text-white pt-[35px] ml-[20px] ">Discover our NFT gift cards collection. Loyal<br/> customers gets amazing gift cards which are<br/> traded as NFTs. These NFTs gives our cutomer<br/> access to loads of our exclusive services.</p>
