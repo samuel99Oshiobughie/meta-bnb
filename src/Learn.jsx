@@ -9,9 +9,9 @@ const Learn = () => {
         <p className="font-red font-normal text-lg leading-[35px] text-white pt-[35px] ml-[20px] ">Discover our NFT gift cards collection. Loyal<br/> customers gets amazing gift cards which are<br/> traded as NFTs. These NFTs gives our cutomer<br/> access to loads of our exclusive services.</p>
         <button className="bg-white w-[156px] h-[48px] rounded-lg font-red font-normal text-base leading-[19px] text-center text-[#A02279] mt-[57.55px] ml-[20px] ">Learn more</button>
       </div>
-      <img className="w-[210px] h-[253.89px] absolute left-[150px] top-[5400px]" src={image1} alt="image 1"/>
-      <img className="w-[210px] h-[253.89px] absolute left-[20px] top-[5510px]" src={image2} alt="image 2"/>
-      <img className="w-[210px] h-[253.89px] absolute left-[155px] top-[5573px]" src={image3} alt="image 3"/>
+      <img className="w-[210px] h-[253.89px] max-sm:absolute max-sm:left-[150px] max-sm:top-[5400px]" src={image1} alt="image 1"/>
+      <img className="w-[210px] h-[253.89px] max-sm:absolute max-sm:left-[20px] max-sm:top-[5510px]" src={image2} alt="image 2"/>
+      <img className="w-[210px] h-[253.89px] max-sm:absolute max-sm:left-[155px] max-sm:top-[5573px]" src={image3} alt="image 3"/>
     </section>
     </>
     // <>
